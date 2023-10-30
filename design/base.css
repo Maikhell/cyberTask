@@ -19,19 +19,17 @@ sticky-top{
     top: 0;
   
 }
-
 .container{
     margin-left: 5px;
+    margin-right: 5px;
 }
 
-
-  
 .navbar-brand{
     font-family:Cyberpunk;
    color: rgb(0,184,255);
    font-size:2.5em;
    font-weight: 700;
-   animation: continuousColorChange 5s linear infinite; /* Apply the color change animation */
+   animation: continuousColorChange 8s linear infinite; /* Apply the color change animation */
 
 }
 .nav-link{
@@ -41,13 +39,47 @@ color: rgb(255, 255, 255);
 font-weight: 700;   
 font-size:20px;
 }
-
+.custom-button-edit{
+  font-weight: 600;
+  color: rgb(36, 36, 36);
+background-color: rgb(218, 203, 0, 0.76) ;
+}
+.custom-button-edit:hover{
+  background-color:rgb(255, 238, 0) ;
+  }
+.custom-button-add{
+  font-weight: 600;
+color: rgb(36, 36, 36);
+background-color: rgb(0, 150, 209, 0.76) ;
+}
+.custom-button-add:hover{
+  background-color:rgb(0, 179, 250) ;
+  }
+  .custom-button-del{
+    font-weight: 600;
+    color: rgb(36, 36, 36);
+    background-color: rgb(183, 0, 219, 0.76) ;
+  }
+  .custom-button-del:hover{
+    background-color: rgb(212, 0, 255) ;
+  }
+.custom-button-arch{
+  font-weight: 600;
+  color: rgb(36, 36, 36);
+  background-color: rgba(0, 35, 211, 0.76) ;
+}
+.custom-button-arch:hover{
+  background-color: rgb(13, 53, 255) ;
+}
 @keyframes continuousColorChange {
     0% {
       color: rgb(0, 184, 255); /* Start with the initial color */
     }
     50% {
       color: rgb(0,30,255); /* Transition color (in between) */
+    }
+    75% {
+      color: #FDF500; /* Transition color (in between) */
     }
     100% {
       color: rgb(214, 0, 255); /* End color */
