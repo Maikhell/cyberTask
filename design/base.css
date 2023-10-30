@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: 'Cyberpunk';
+    src: url('../fonts/CyberwayRiders-lg97d.ttf') format('truetype'); /* adjust the font file format and path */
+    font-weight: normal;
+    font-style: normal;
+  }
+body{
+margin: auto;
+padding: 0;
+background-image: url(../image/city-5848267_1920.jpg);
+background-position: center;
+background-size: cover;
+
+}
+sticky-top{
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+  
+}
+
+.container{
+    margin-left: 5px;
+}
+
+
+  
+.navbar-brand{
+    font-family:Cyberpunk;
+   color: rgb(0,184,255);
+   font-size:2.5em;
+   font-weight: 700;
+   animation: continuousColorChange 5s linear infinite; /* Apply the color change animation */
+
+}
+.nav-link{
+margin-left: 20px;
+font-family:Cyberpunk;
+color: rgb(255, 255, 255);
+font-weight: 700;   
+font-size:20px;
+}
+
+@keyframes continuousColorChange {
+    0% {
+      color: rgb(0, 184, 255); /* Start with the initial color */
+    }
+    50% {
+      color: rgb(0,30,255); /* Transition color (in between) */
+    }
+    100% {
+      color: rgb(214, 0, 255); /* End color */
+    }
+  }
