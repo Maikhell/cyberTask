@@ -29,15 +29,15 @@
         </div>
     </nav>
     <div class="table-responsive">
-        <table class="table table-bordered table-hover  table-responsive">
-            <thead class=" table-dark">
+        <table class="table table-borderless table-hover  table-responsive">
+            <thead>
                 <tr>
-                    <th scope="col">My Tasks</th>
-                    <th scope="col">Start Date</th>
-                    <th scope="col">Due Date</th>
-                    <th scope="col">Complete%</th>
-                    <th scope="col">Progress</th>
-                    <th scope="col">Notes</th>
+                    <th class="custom-table-head" scope="col">My Tasks</th>
+                    <th class="custom-table-head" scope="col">Start Date</th>
+                    <th class="custom-table-head" scope="col">Due Date</th>
+                    <th class="custom-table-head" scope="col">Complete%</th>
+                    <th class="custom-table-head" scope="col">Progress</th>
+                    <th class="custom-table-head" scope="col">Notes</th>
                 </tr>
             </thead>
             <tbody>
