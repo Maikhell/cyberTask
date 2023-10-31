@@ -21,7 +21,7 @@
                         <a class="nav-link" href="#">List</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Archive</a>
+                        <a class="nav-link" href="#">Archives</a>
                     </li>
                 </ul>
 
