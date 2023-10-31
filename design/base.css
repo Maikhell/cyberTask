@@ -19,11 +19,42 @@ sticky-top{
     top: 0;
   
 }
-.container{
-    margin-left: 5px;
-    margin-right: 5px;
+.navbar-toggler{
+  animation: continuousColorChange 5s linear infinite; 
 }
-
+.container{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.progress{
+  width: 100%;
+  height: 100%;
+  
+}
+table.table tbody tr td.no-padding {
+  padding: 0;
+  position: relative;
+}
+.custom-progress {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+}
+.progress-bar{
+ width: 100%;
+ animation: continuousColorChangeBg 12s linear infinite;
+ border-radius: 0;
+border:1px solid;
+height: 100%;
+max-height: 100%;
+}
+.table-responsive{
+  margin-left: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+overflow-x: auto;
+}
 .navbar-brand{
     font-family:Cyberpunk;
    color: rgb(0,184,255);
@@ -38,6 +69,7 @@ font-family:Cyberpunk;
 color: rgb(255, 255, 255);
 font-weight: 700;   
 font-size:20px;
+
 }
 .custom-button-edit{
   font-weight: 600;
@@ -83,5 +115,19 @@ background-color: rgb(0, 150, 209, 0.76) ;
     }
     100% {
       color: rgb(214, 0, 255); /* End color */
+    }
+  }
+  @keyframes continuousColorChangeBg {
+    0% {
+      background-color: rgb(0, 134, 187); /* Start with the initial color */
+    }
+    50% {
+      background-color: rgba(0, 21, 182, 0.582); /* Transition color (in between) */
+    }
+    75% {
+      background-color: #9b9600; /* Transition color (in between) */
+    }
+    100% {
+      background-color: rgb(123, 0, 148); /* End color */
     }
   }

@@ -18,9 +18,6 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#">List</a>
                     </li>
                     <li class="nav-item">
@@ -31,8 +28,8 @@
             </div>
         </div>
     </nav>
-    <div class="table-container table-responsive">
-        <table class="table table-borderless table-hover  table-responsive">
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover  table-responsive">
             <thead class=" table-dark">
                 <tr>
                     <th scope="col">My Tasks</th>
@@ -48,7 +45,13 @@
                     <td>Finish Homework</td>
                     <td>Date</td>
                     <td>Date</td>
-                    <td>50%</td>
+                    <td class="no-padding">
+                        <div class="progress">
+                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                100%
+                            </div>
+                        </div>
+                    </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
                 </tr>
@@ -56,7 +59,13 @@
                     <td>Finish Homework</td>
                     <td>Date</td>
                     <td>Date</td>
-                    <td>50%</td>
+                    <td class="no-padding">
+                        <div class="progress">
+                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                100%
+                            </div>
+                        </div>
+                    </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
                 </tr>
@@ -64,7 +73,13 @@
                     <td>Finish Homework</td>
                     <td>Date</td>
                     <td>Date</td>
-                    <td>50%</td>
+                    <td class="no-padding">
+                        <div class="progress">
+                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                100%
+                            </div>
+                        </div>
+                    </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
                 </tr>
@@ -72,7 +87,13 @@
                     <td>Finish Homework</td>
                     <td>Date</td>
                     <td>Date</td>
-                    <td>50%</td>
+                    <td class="no-padding">
+                        <div class="progress">
+                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                100%
+                            </div>
+                        </div>
+                    </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
                 </tr>
@@ -80,7 +101,13 @@
                     <td>Finish Homework</td>
                     <td>Date</td>
                     <td>Date</td>
-                    <td>50%</td>
+                    <td class="no-padding">
+                        <div class="progress">
+                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                100%
+                            </div>
+                        </div>
+                    </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
                 </tr>
@@ -88,7 +115,13 @@
                     <td>Finish Homework</td>
                     <td>Date</td>
                     <td>Date</td>
-                    <td>50%</td>
+                    <td class="no-padding">
+                        <div class="progress">
+                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                100%
+                            </div>
+                        </div>
+                    </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
                 </tr>
@@ -96,7 +129,13 @@
                     <td>Finish Homework</td>
                     <td>Date</td>
                     <td>Date</td>
-                    <td>50%</td>
+                    <td class="no-padding">
+                        <div class="progress">
+                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                100%
+                            </div>
+                        </div>
+                    </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
                 </tr>
@@ -104,7 +143,13 @@
                     <td>Finish Homework</td>
                     <td>Date</td>
                     <td>Date</td>
-                    <td>50%</td>
+                    <td class="no-padding">
+                        <div class="progress">
+                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                100%
+                            </div>
+                        </div>
+                    </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
                 </tr>
@@ -112,7 +157,13 @@
                     <td>Finish Homework</td>
                     <td>Date</td>
                     <td>Date</td>
-                    <td>50%</td>
+                    <td class="no-padding">
+                        <div class="progress">
+                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                100%
+                            </div>
+                        </div>
+                    </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
                 </tr>
@@ -120,15 +171,13 @@
                     <td>Finish Homework</td>
                     <td>Date</td>
                     <td>Date</td>
-                    <td>50%</td>
-                    <td>Incomplete</td>
-                    <td>I will finish this</td>
-                </tr>
-                <tr>
-                    <td>Finish Homework</td>
-                    <td>Date</td>
-                    <td>Date</td>
-                    <td>50%</td>
+                    <td class="no-padding">
+                        <div class="progress">
+                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                100%
+                            </div>
+                        </div>
+                    </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
                 </tr>
