@@ -45,6 +45,28 @@ table.table tbody tr td.no-padding {
   position: relative;
  
 }
+.form-control{
+  margin-left:18px;
+  margin-right:10px;
+  margin-bottom: 10px;
+  font-family: Swansea;
+  font-weight: 600;
+  border-bottom:2px solid rgb(183, 0, 219, 0.76) ;
+  border-top: 2px solid rgb(0, 184, 255) ;
+}
+.form-control:focus{
+  box-shadow: 3px 3px 13px rgb(255, 238, 0) ;
+}
+.custom-btn{
+  background-color:rgb(255, 238, 0) ;
+  font-family: Swansea;
+  font-weight: 600;
+}
+.custom-btn:hover{
+  background-color:rgba(230, 215, 0, 0.829) ;
+  font-family: Swansea;
+  font-weight: 600;
+}
 .custom-progress {
   position: absolute;
   width: 100%;

@@ -23,10 +23,21 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Archives</a>
                     </li class="nav-link">
+
                 </ul>
             </div>
         </div>
     </nav>
+    <div class="col-md-6 offset-md-3">
+        <form class="form-inline">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+                    <button class="btn custom-btn" type="submit">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
     <div class="table-responsive">
         <table class="table table-borderless table-hover  table-responsive">
             <thead>
