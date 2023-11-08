@@ -33,7 +33,7 @@
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="Search">
                 <div class="input-group-append">
-                    <button class="btn custom-btn" type="submit">Search</button>
+                    <button class="btn custom-btn" type="submit"><img class="search-btn" src="./image/icons/icons8-search-144.png"></button>
                 </div>
             </div>
         </form>
@@ -41,13 +41,17 @@
     <div class="table-responsive">
         <table class="table table-borderless table-hover  table-responsive">
             <thead>
-                <tr>
+                <tr class="tr-title">
                     <th class="custom-table-head" scope="col">My Tasks</th>
                     <th class="custom-table-head" scope="col">Start Date</th>
                     <th class="custom-table-head" scope="col">Due Date</th>
                     <th class="custom-table-head" scope="col">Complete%</th>
                     <th class="custom-table-head" scope="col">Progress</th>
                     <th class="custom-table-head" scope="col">Notes</th>
+                    <th class="custom-table-head" scope="col">Select</th>
+                    <th class="custom-table-head" scope="col">Edit</th>
+                    <th class="custom-table-head" scope="col">Delete</th>
+
                 </tr>
             </thead>
             <tbody>
@@ -64,6 +68,17 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
+                    <td></td>
+                    <td>
+                        <button type="button" class="btn custom-button-edit">
+                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
+                        </button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn custom-button-del">
+                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
+                        </button>
+                    </td>
                 </tr>
                 <tr>
                     <td>Finish Homework</td>
@@ -78,6 +93,17 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
+                    <td></td>
+                    <td>
+                        <button type="button" class="btn custom-button-edit">
+                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
+                        </button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn custom-button-del">
+                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
+                        </button>
+                    </td>
                 </tr>
                 <tr>
                     <td>Finish Homework</td>
@@ -92,6 +118,17 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
+                    <td></td>
+                    <td>
+                        <button type="button" class="btn custom-button-edit">
+                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
+                        </button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn custom-button-del">
+                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
+                        </button>
+                    </td>
                 </tr>
                 <tr>
                     <td>Finish Homework</td>
@@ -106,6 +143,17 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
+                    <td></td>
+                    <td>
+                        <button type="button" class="btn custom-button-edit">
+                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
+                        </button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn custom-button-del">
+                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
+                        </button>
+                    </td>
                 </tr>
                 <tr>
                     <td>Finish Homework</td>
@@ -120,6 +168,17 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
+                    <td></td>
+                    <td>
+                        <button type="button" class="btn custom-button-edit">
+                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
+                        </button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn custom-button-del">
+                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
+                        </button>
+                    </td>
                 </tr>
                 <tr>
                     <td>Finish Homework</td>
@@ -134,6 +193,17 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
+                    <td></td>
+                    <td>
+                        <button type="button" class="btn custom-button-edit">
+                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
+                        </button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn custom-button-del">
+                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
+                        </button>
+                    </td>
                 </tr>
                 <tr>
                     <td>Finish Homework</td>
@@ -148,6 +218,17 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
+                    <td></td>
+                    <td>
+                        <button type="button" class="btn custom-button-edit">
+                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
+                        </button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn custom-button-del">
+                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
+                        </button>
+                    </td>
                 </tr>
                 <tr>
                     <td>Finish Homework</td>
@@ -162,6 +243,17 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
+                    <td></td>
+                    <td>
+                        <button type="button" class="btn custom-button-edit">
+                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
+                        </button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn custom-button-del">
+                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
+                        </button>
+                    </td>
                 </tr>
                 <tr>
                     <td>Finish Homework</td>
@@ -176,6 +268,17 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
+                    <td></td>
+                    <td>
+                        <button type="button" class="btn custom-button-edit">
+                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
+                        </button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn custom-button-del">
+                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
+                        </button>
+                    </td>
                 </tr>
                 <tr>
                     <td>Finish Homework</td>
@@ -190,29 +293,43 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
+                    <td></td>
+                    <td>
+                        <button type="button" class="btn custom-button-edit">
+                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
+                        </button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn custom-button-del">
+                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
+                        </button>
+                    </td>
                 </tr>
             </tbody>
             <tfoot>
                 <th>
                     <button type="button" class="btn custom-button-add">
-                        Add
+                        <img class="add-btn" src="./image/icons/icons8-add-96.png">
                     </button>
                 </th>
                 <td>
-                    <button type="button" class="btn custom-button-edit">Edit</button>
+                    <!-- <button type="button" class="btn custom-button-edit">Edit</button> -->
                 </td>
                 <td>
-                    <button type="button" class="btn custom-button-del">Delete</button>
+                    <!-- <button type="button" class="btn custom-button-del">Delete</button> -->
                 </td>
                 <td>
-                    <button type="button" class="btn custom-button-arch">Archive</button>
-                </td>
-                <td>
-
+                    <!-- <button type="button" class="btn custom-button-arch">Archive</button> -->
                 </td>
                 <td>
 
                 </td>
+                <td>
+
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tfoot>
         </table>
     </div>
