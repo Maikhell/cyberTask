@@ -7,7 +7,6 @@
     <title>Cyber List</title>
     <link rel="stylesheet" type="text/css" href="./bootstrap-5.3.1-dist/css/bootstrap.css" </head>
     <link rel="stylesheet" type="text/css" href="./design/base.css" </head>
-
 <body>
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
@@ -23,19 +22,23 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Archives</a>
                     </li class="nav-link">
-
                 </ul>
             </div>
-        </div>
+        </div>  
     </nav>
     <div class="col-md-6 offset-md-3">
-        <form class="form-inline">
+        <form class="form-inline">      
             <div class="input-group">
+    <img class="anime-img" src="./image/david-chibi.png">    
                 <input type="text" class="form-control" placeholder="Search">
                 <div class="input-group-append">
-                    <button class="btn custom-btn" type="submit"><img class="search-btn" src="./image/icons/icons8-search-144.png"></button>
+                    <button class="btn custom-btn" type="submit"><img class="search-btn" src="./image/icons/icons8-search-144.png">
+                </button>
+                     
                 </div>
+                    
             </div>
+    
         </form>
     </div>
     <div class="table-responsive">
@@ -51,7 +54,6 @@
                     <th class="custom-table-head" scope="col">Select</th>
                     <th class="custom-table-head" scope="col">Edit</th>
                     <th class="custom-table-head" scope="col">Delete</th>
-
                 </tr>
             </thead>
             <tbody>
@@ -59,6 +61,32 @@
                     <td>Finish Homework</td>
                     <td>Date</td>
                     <td>Date</td>
+                    <td class="no-padding ">
+                        <div class="progress">
+                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                100%
+                            </div>
+                        </div>
+                    </td>
+                    <td>Incomplete</td>
+                    <td>I will finish this</td>
+                    <td><input class="form-check-input" type="checkbox" value="" id="exampleCheckbox-1"></td>
+                    <td>
+                        <button type="button" class="btn custom-button-edit">
+                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
+                   
+                        </button>
+                    </td>
+                    <td>
+                         <button type="button" class="btn custom-button-del">
+                             <img  class="btn-del" src="./image/icons/icons8-delete-144.png">
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Finish Homework</td>
+                    <td>Date</td>
+                    <td>Date</td>
                     <td class="no-padding">
                         <div class="progress">
                             <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
@@ -68,7 +96,7 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
-                    <td></td>
+                    <td> <input class="form-check-input" type="checkbox" value="" id="exampleCheckbox-2"></td>
                     <td>
                         <button type="button" class="btn custom-button-edit">
                             <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
@@ -93,7 +121,7 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
-                    <td></td>
+                    <td> <input class="form-check-input" type="checkbox" value="" id="exampleCheckbo-3"></td>
                     <td>
                         <button type="button" class="btn custom-button-edit">
                             <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
@@ -118,7 +146,7 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
-                    <td></td>
+                    <td> <input class="form-check-input" type="checkbox" value="" id="exampleCheckbox-4"></td>
                     <td>
                         <button type="button" class="btn custom-button-edit">
                             <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
@@ -143,7 +171,7 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
-                    <td></td>
+                    <td> <input class="form-check-input" type="checkbox" value="" id="exampleCheckbox-5"></td>
                     <td>
                         <button type="button" class="btn custom-button-edit">
                             <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
@@ -168,7 +196,7 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
-                    <td></td>
+                    <td> <input class="form-check-input" type="checkbox" value="" id="exampleCheckbox-6"></td>
                     <td>
                         <button type="button" class="btn custom-button-edit">
                             <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
@@ -193,7 +221,7 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
-                    <td></td>
+                    <td> <input class="form-check-input" type="checkbox" value="" id="exampleCheckbox-9"></td>
                     <td>
                         <button type="button" class="btn custom-button-edit">
                             <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
@@ -218,82 +246,7 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
-                    <td></td>
-                    <td>
-                        <button type="button" class="btn custom-button-edit">
-                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
-                        </button>
-                    </td>
-                    <td>
-                        <button type="button" class="btn custom-button-del">
-                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Finish Homework</td>
-                    <td>Date</td>
-                    <td>Date</td>
-                    <td class="no-padding">
-                        <div class="progress">
-                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                100%
-                            </div>
-                        </div>
-                    </td>
-                    <td>Incomplete</td>
-                    <td>I will finish this</td>
-                    <td></td>
-                    <td>
-                        <button type="button" class="btn custom-button-edit">
-                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
-                        </button>
-                    </td>
-                    <td>
-                        <button type="button" class="btn custom-button-del">
-                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Finish Homework</td>
-                    <td>Date</td>
-                    <td>Date</td>
-                    <td class="no-padding">
-                        <div class="progress">
-                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                100%
-                            </div>
-                        </div>
-                    </td>
-                    <td>Incomplete</td>
-                    <td>I will finish this</td>
-                    <td></td>
-                    <td>
-                        <button type="button" class="btn custom-button-edit">
-                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
-                        </button>
-                    </td>
-                    <td>
-                        <button type="button" class="btn custom-button-del">
-                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Finish Homework</td>
-                    <td>Date</td>
-                    <td>Date</td>
-                    <td class="no-padding">
-                        <div class="progress">
-                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                100%
-                            </div>
-                        </div>
-                    </td>
-                    <td>Incomplete</td>
-                    <td>I will finish this</td>
-                    <td></td>
+                    <td> <input class="form-check-input" type="checkbox" value="" id="exampleCheckbox-10"></td>
                     <td>
                         <button type="button" class="btn custom-button-edit">
                             <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
