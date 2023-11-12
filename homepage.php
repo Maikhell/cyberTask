@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyber List</title>
-    <link rel="stylesheet" type="text/css" href="./bootstrap-5.3.1-dist/css/bootstrap.css" </head>
-    <link rel="stylesheet" type="text/css" href="./design/base.css" </head>
+    <link rel="stylesheet" type="text/css" href="./bootstrap-5.3.1-dist/css/bootstrap.css"> 
+    <link rel="stylesheet" type="text/css" href="./design/base.css" >
+    <link rel="icon" href="./image/david-chibi.png" type="image/x-icon">
+</head>
 <body>
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
@@ -28,8 +30,9 @@
     </nav>
     <div class="col-md-6 offset-md-3">
         <form class="form-inline">      
+                <img class="anime-img" src="./image/david-chibi.png">   
             <div class="input-group">
-    <img class="anime-img" src="./image/david-chibi.png">    
+ 
                 <input type="text" class="form-control" placeholder="Search">
                 <div class="input-group-append">
                     <button class="btn custom-btn" type="submit"><img class="search-btn" src="./image/icons/icons8-search-144.png">
@@ -207,7 +210,7 @@
                             <img class="btn-del" src="./image/icons/icons8-delete-144.png">
                         </button>
                     </td>
-                </tr>
+                </tr>a
                 <tr>
                     <td>Finish Homework</td>
                     <td>Date</td>
@@ -260,11 +263,11 @@
                 </tr>
             </tbody>
             <tfoot>
-                <th>
+                <td>
                     <button type="button" class="btn custom-button-add">
                         <img class="add-btn" src="./image/icons/icons8-add-96.png">
                     </button>
-                </th>
+</td>
                 <td>
                     <!-- <button type="button" class="btn custom-button-edit">Edit</button> -->
                 </td>
