@@ -13,11 +13,26 @@
 body {
   margin: auto;
   padding: 0;
-  background-image: url(../image/cyberpunk-bg.jpg);
+  background-image: url(../image/cyberpunk-universe.jpg);
   background-position: center;
   background-size: cover;
   font-family: Swansea;
   font-weight: 600;
+  cursor: url(../image/icons/cursor/cursor.cur), auto;
+}
+/* Override cursor for all interactive elements */
+/* Override cursor for specific interactive elements */
+a,
+button,
+input,
+select,
+textarea,
+[type="button"],
+[type="submit"],
+[type="reset"],
+[type="checkbox"],
+[type="radio"] {
+  cursor: url(../image/icons/cursor/cursor.cur), auto;
 }
 sticky-top {
   z-index: 1000;
@@ -63,12 +78,13 @@ table.table tbody tr td.no-padding {
 .form-control {
   margin-left: 18px;
   margin-right: 10px;
-
   font-family: Swansea;
   font-weight: 600;
-  border-bottom: 2px solid rgb(0, 255, 213);
-  border-top: 2px solid rgb(0, 184, 255);
-  border-radius: 2px solid;
+  border-bottom: solid 3px rgb(0, 255, 213);
+  border-top: solid 2px rgb(0, 255, 213);
+  border-left: solid 2px rgb(0, 255, 213);
+  border-right: solid 3px rgb(0, 255, 213);
+  border-radius: 3px;
 }
 .form-control:focus {
   box-shadow: 3px 3px 13px #00ff9f;
@@ -87,13 +103,17 @@ table.table tbody tr td.no-padding {
 }
 .custom-btn {
   background-color: rgb(255, 238, 0);
-  font-family: Swansea;
-  font-weight: 600;
+  border-bottom: solid 4px;
+  border-top: solid 2px;
+  border-left: solid 2px;
+  border-right: solid 4px;
 }
 .custom-btn:hover {
   background-color: rgba(230, 215, 0, 0.829);
-  font-family: Swansea;
-  font-weight: 600;
+  border-bottom: solid 4px;
+  border-top: solid 2px;
+  border-left: solid 2px;
+  border-right: solid 4px;
 }
 .custom-progress {
   position: absolute;
@@ -147,21 +167,65 @@ table.table tbody tr td.no-padding {
 }
 .custom-button-edit {
   background-color: rgba(0, 255, 234, 0.911);
+  border-bottom: solid 4px;
+  border-top: solid 2px;
+  border-left: solid 2px;
+  border-right: solid 4px;
+}
+.custom-button-edit:active,
+.custom-button-edit:focus {
+  background-color: rgba(0, 216, 198, 0.911);
+  transform: translateY(2px);
+  outline: none;
 }
 .custom-button-edit:hover {
   background-color: rgba(0, 216, 198, 0.911);
+  border-bottom: solid 4px;
+  border-top: solid 2px;
+  border-left: solid 2px;
+  border-right: solid 4px;
 }
+
 .custom-button-add {
   background-color: rgb(255, 251, 0);
+  border-bottom: solid 4px;
+  border-top: solid 2px;
+  border-left: solid 2px;
+  border-right: solid 4px;
+  width: 50%;
+}
+.custom-button-add:active,
+.custom-button-add:focus {
+  background-color: rgb(255, 219, 0);
+  transform: translateY(2px);
+  outline: none;
 }
 .custom-button-add:hover {
   background-color: rgb(226, 222, 0);
+  border-bottom: solid 4px;
+  border-top: solid 2px;
+  border-left: solid 2px;
+  border-right: solid 4px;
 }
 .custom-button-del {
   background-color: rgba(255, 251, 0, 0.76);
+  border-bottom: solid 4px;
+  border-top: solid 2px;
+  border-left: solid 2px;
+  border-right: solid 4px;
+}
+.custom-button-del:active,
+.custom-button-del:focus {
+  background-color: rgba(255, 219, 0, 0.76);
+  transform: translateY(2px);
+  outline: none;
 }
 .custom-button-del:hover {
   background-color: rgba(219, 216, 0, 0.76);
+  border-bottom: solid 4px;
+  border-top: solid 2px;
+  border-left: solid 2px;
+  border-right: solid 4px;
 }
 .custom-button-arch {
   font-weight: 600;
