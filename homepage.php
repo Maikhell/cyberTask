@@ -189,9 +189,7 @@
                 <td>
                 </td>
                 <td>
-
                 </td>
-            
             </tfoot>
         </table>
   <div class ="container-chat mt-2">
