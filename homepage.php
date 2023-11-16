@@ -175,23 +175,18 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
-                   
                 </tr>
             </tbody>
             <tfoot>
                 <td>
 </td>
-                <td>
-                  
+                <td>    
+                </td>
+                <td>   
                 </td>
                 <td>
-                   
                 </td>
                 <td>
-                
-                </td>
-                <td>
-
                 </td>
                 <td>
 
@@ -199,9 +194,7 @@
             
             </tfoot>
         </table>
-
   <div class ="container-chat mt-2">
-
     <div class="col-md-8 offset-md-2">
         <div class = "card">
             <div class = " card-body chat box" id ="chatBox"> 
@@ -212,7 +205,6 @@
 
         </div>
 </div>
-
     </div>
 
 </div>
