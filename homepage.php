@@ -45,7 +45,7 @@
         </form>
     </div>
     <div class="table-responsive">
-        <table class="table table-borderless table-hover  table-responsive">
+        <table class="table table-bordered table-hover  table-responsive">
             <thead>
                 <tr class="tr-title">
                     <th class="custom-table-head" scope="col">My Tasks</th>
@@ -54,9 +54,7 @@
                     <th class="custom-table-head" scope="col">Complete%</th>
                     <th class="custom-table-head" scope="col">Progress</th>
                     <th class="custom-table-head" scope="col">Notes</th>
-                    <th class="custom-table-head" scope="col">Select</th>
-                    <th class="custom-table-head" scope="col">Edit</th>
-                    <th class="custom-table-head" scope="col">Delete</th>
+
                 </tr>
             </thead>
             <tbody>
@@ -73,18 +71,21 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
-                    <td><input class="form-check-input" type="checkbox" value="" id="exampleCheckbox-1"></td>
-                    <td>
-                        <button type="button" class="btn custom-button-edit">
-                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
+                </tr>
+                <tr>
+                    <td>Finish Homework</td>
+                    <td>Date</td>
+                    <td>Date</td>
+                    <td class="no-padding">
+                        <div class="progress">
+                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                100%
+                            </div>
+                        </div>
+                    </td>
+                    <td>Incomplete</td>
+                    <td>I will finish this</td>
                    
-                        </button>
-                    </td>
-                    <td>
-                         <button type="button" class="btn custom-button-del">
-                             <img  class="btn-del" src="./image/icons/icons8-delete-144.png">
-                        </button>
-                    </td>
                 </tr>
                 <tr>
                     <td>Finish Homework</td>
@@ -99,17 +100,7 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
-                    <td> <input class="form-check-input" type="checkbox" value="" id="exampleCheckbox-2"></td>
-                    <td>
-                        <button type="button" class="btn custom-button-edit">
-                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
-                        </button>
-                    </td>
-                    <td>
-                        <button type="button" class="btn custom-button-del">
-                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
-                        </button>
-                    </td>
+                   
                 </tr>
                 <tr>
                     <td>Finish Homework</td>
@@ -124,17 +115,7 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
-                    <td> <input class="form-check-input" type="checkbox" value="" id="exampleCheckbo-3"></td>
-                    <td>
-                        <button type="button" class="btn custom-button-edit">
-                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
-                        </button>
-                    </td>
-                    <td>
-                        <button type="button" class="btn custom-button-del">
-                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
-                        </button>
-                    </td>
+                
                 </tr>
                 <tr>
                     <td>Finish Homework</td>
@@ -149,17 +130,7 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
-                    <td> <input class="form-check-input" type="checkbox" value="" id="exampleCheckbox-4"></td>
-                    <td>
-                        <button type="button" class="btn custom-button-edit">
-                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
-                        </button>
-                    </td>
-                    <td>
-                        <button type="button" class="btn custom-button-del">
-                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
-                        </button>
-                    </td>
+                
                 </tr>
                 <tr>
                     <td>Finish Homework</td>
@@ -174,17 +145,7 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
-                    <td> <input class="form-check-input" type="checkbox" value="" id="exampleCheckbox-5"></td>
-                    <td>
-                        <button type="button" class="btn custom-button-edit">
-                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
-                        </button>
-                    </td>
-                    <td>
-                        <button type="button" class="btn custom-button-del">
-                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
-                        </button>
-                    </td>
+                    
                 </tr>
                 <tr>
                     <td>Finish Homework</td>
@@ -199,42 +160,7 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
-                    <td> <input class="form-check-input" type="checkbox" value="" id="exampleCheckbox-6"></td>
-                    <td>
-                        <button type="button" class="btn custom-button-edit">
-                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
-                        </button>
-                    </td>
-                    <td>
-                        <button type="button" class="btn custom-button-del">
-                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
-                        </button>
-                    </td>
-                </tr>a
-                <tr>
-                    <td>Finish Homework</td>
-                    <td>Date</td>
-                    <td>Date</td>
-                    <td class="no-padding">
-                        <div class="progress">
-                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                100%
-                            </div>
-                        </div>
-                    </td>
-                    <td>Incomplete</td>
-                    <td>I will finish this</td>
-                    <td> <input class="form-check-input" type="checkbox" value="" id="exampleCheckbox-9"></td>
-                    <td>
-                        <button type="button" class="btn custom-button-edit">
-                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
-                        </button>
-                    </td>
-                    <td>
-                        <button type="button" class="btn custom-button-del">
-                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
-                        </button>
-                    </td>
+                   
                 </tr>
                 <tr>
                     <td>Finish Homework</td>
@@ -249,45 +175,50 @@
                     </td>
                     <td>Incomplete</td>
                     <td>I will finish this</td>
-                    <td> <input class="form-check-input" type="checkbox" value="" id="exampleCheckbox-10"></td>
-                    <td>
-                        <button type="button" class="btn custom-button-edit">
-                            <img class="btn-edit" src="./image/icons/icons8-edit-144.png">
-                        </button>
-                    </td>
-                    <td>
-                        <button type="button" class="btn custom-button-del">
-                            <img class="btn-del" src="./image/icons/icons8-delete-144.png">
-                        </button>
-                    </td>
+                   
                 </tr>
             </tbody>
             <tfoot>
                 <td>
-                    <button type="button" class="btn custom-button-add">
-                        <img class="add-btn" src="./image/icons/icons8-add-96.png">
-                    </button>
 </td>
                 <td>
-                    <!-- <button type="button" class="btn custom-button-edit">Edit</button> -->
+                  
                 </td>
                 <td>
-                    <!-- <button type="button" class="btn custom-button-del">Delete</button> -->
+                   
                 </td>
                 <td>
-                    <!-- <button type="button" class="btn custom-button-arch">Archive</button> -->
-                </td>
-                <td>
-
+                
                 </td>
                 <td>
 
                 </td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>
+
+                </td>
+            
             </tfoot>
         </table>
+
+  <div class ="container-chat mt-2">
+
+    <div class="col-md-8 offset-md-2">
+        <div class = "card">
+            <div class = " card-body chat box" id ="chatBox"> 
+            </div>   
+            <div class = "card-footer">         
+                <button class ="btn custom-send-btn"><img class="send-icon"src="./image/icons/icons8-send-96.png" alt=""></button> 
+<textarea  class = "form-control" placeholder="" id="messageInput"> </textarea>
+
+        </div>
+</div>
+
+    </div>
+
+</div>
+
+  </div>
+
     </div>
     <script src="./bootstrap-5.3.1-dist/js/bootstrap.js">
 
