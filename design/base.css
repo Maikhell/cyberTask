@@ -39,6 +39,7 @@ sticky-top {
   position: sticky;
   top: 0;
 }
+
 .navbar-toggler {
   animation: continuousColorChange 5s linear infinite;
 }
@@ -66,6 +67,17 @@ table.table tbody tr td.no-padding {
 .search-btn {
   width: 25px;
   height: 25px;
+}
+.span-title {
+  margin-left: 6px;
+  animation: continuousColorChange-open 5s linear infinite;
+}
+.btn-prompt-action {
+  background-color: rgb(167, 166, 166);
+  margin-left: 10px;
+}
+.btn-prompt-action:hover {
+  background-color: #00ff9f;
 }
 .form-control {
   border-bottom: solid 4px;
@@ -128,7 +140,6 @@ table.table tbody tr td.no-padding {
 }
 .progress-bar {
   width: 100%;
-
   background: linear-gradient(90deg, #00e1f1, #00fff2);
   border-radius: 15px;
   border: 1px solid;
@@ -137,7 +148,18 @@ table.table tbody tr td.no-padding {
   position: relative;
 }
 .navbar-toggler {
-  animation: continuousColorChangeBg 12s linear infinite;
+  background-color: #00ff9f;
+  border-bottom: solid 4px black;
+  border-top: solid 2px black;
+  border-left: solid 2px black;
+  border-right: solid 4px black;
+}
+.navbar-toggler:focus {
+  background-color: #00ce7f;
+  box-shadow: 3px 3px 13px rgba(0, 255, 157, 0);
+}
+.navbar-toggler:active {
+  transform: translate(2px, 2px);
 }
 .card-footer {
   display: flex;
@@ -154,12 +176,19 @@ table.table tbody tr td.no-padding {
   color: rgb(0, 184, 255);
   font-size: 2.5em;
   font-weight: 700;
-  animation: continuousColorChange 8s linear infinite; /* Apply the color change animation */
+  animation: continuousColorChange-title 6s linear infinite; /* Apply the color change animation */
 }
 .nav-link {
   margin-left: 20px;
   font-family: Cyberpunk;
-  color: rgb(255, 255, 255);
+  color: rgb(202, 202, 202);
+  font-weight: 700;
+  font-size: 20px;
+}
+.nav-link:hover {
+  margin-left: 20px;
+  font-family: Cyberpunk;
+  color: #00ff9f;
   font-weight: 700;
   font-size: 20px;
 }
@@ -176,7 +205,7 @@ table.table tbody tr td.no-padding {
 }
 .custom-send-btn:hover {
   float: right;
-  background-color: #0ce491cc;
+  background-color: #00e08a;
   border-bottom: solid 3px;
   border-top: solid 2px;
   border-left: solid 2px;
@@ -195,36 +224,62 @@ table.table tbody tr td.no-padding {
 .custom-button-arch:hover {
   background-color: rgb(13, 53, 255);
 }
-@keyframes continuousColorChange {
+@keyframes continuousColorChange-Bg {
   0% {
-    color: rgb(0, 184, 255);
+    background-color: rgb(202, 202, 202);
   }
   25% {
-    color: rgb(0, 255, 213);
+    background-color: #5bffc0;
   }
   50% {
-    color: rgb(86, 105, 255);
+    background-color: #00ff9d;
   }
   75% {
-    color: #fdf500;
+    background-color: #5bffc0;
   }
   100% {
-    color: rgb(214, 0, 255);
+    background-color: rgb(202, 202, 202);
+  }
+}
+@keyframes continuousColorChange-open {
+  0% {
+    color: rgb(202, 202, 202);
+  }
+  25% {
+    color: #5bffc0;
+  }
+  50% {
+    color: #00ff9d;
+  }
+  75% {
+    color: #5bffc0;
+  }
+  100% {
+    color: rgb(202, 202, 202);
+  }
+}
+@keyframes continuousColorChange-title {
+  0% {
+    color: #acfdde;
+  }
+  25% {
+    color: #5bffc0;
+  }
+  50% {
+    color: #00ff9d;
+  }
+  75% {
+    color: #5bffc0;
+  }
+  100% {
+    color: #acfdde;
   }
 }
 @keyframes continuousColorChangeBg {
   0% {
-    background-color: rgb(0, 255, 213);
+    background-color: #00ff9d;
   }
   100% {
-    background-color: rgb(0, 184, 153);
-  }
-}
-@keyframes continuousColorChangeBg-head {
-  0% {
-    background-color: rgb(0, 255, 213);
-  }
-  100% {
-    background-color: rgb(0, 184, 153);
+    background-color: #00ca7d;
   }
 }

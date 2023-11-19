@@ -24,13 +24,11 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Archives</a>
                     </li class="nav-link">
+    
                 </ul>
-            </div>
-        </div>  
-    </nav>
-    <div class="col-md-6 offset-md-3">
+        <div class="col-md-6 offset-md-3">
         <form class="form-inline">      
-                <img class="anime-img" src="./image/david-chibi.png">   
+          
             <div class="input-group">
  
                 <input type="text" class="form-control" placeholder="Search">
@@ -43,7 +41,14 @@
             </div>
     
         </form>
+        
     </div>
+      
+            </div>
+            
+        </div>  
+    </nav>
+
     <div class="table-responsive">
         <table class="table table-bordered table-hover  table-responsive">
             <thead>
@@ -196,7 +201,14 @@
     <div class="col-md-8 offset-md-2">
         <div class = "card">
             <div class = " card-body chat box" id ="chatBox"> 
-            </div>   
+                <span class = "span-title">Open AI</span>
+                  <button class ="btn btn-prompt-action"><img class="send-icon"src="./image/icons/icons8-add-96.png" alt=""></button>
+                  <button class ="btn btn-prompt-action"><img class="send-icon"src="./image/icons/icons8-edit-144.png" alt=""></button> 
+                   <button class ="btn btn-prompt-action"><img class="send-icon"src="./image/icons/icons8-delete-144.png" alt=""></button> 
+                     <button class ="btn btn-prompt-action"><img class="send-icon"src="./image/icons/icons8-archive-100.png" alt=""></button>   
+                     <button class ="btn btn-prompt-action"><img class="send-icon"src="./image/icons/icons8-calendar-100.png" alt=""></button> 
+                       
+            </div>    
             <div class = "card-footer">         
                 <button class ="btn custom-send-btn"><img class="send-icon"src="./image/icons/icons8-send-96.png" alt=""></button> 
 <textarea  class = "form-control" placeholder="" id="messageInput"> </textarea>
