@@ -1,21 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "";
+$username = "root";
 $password = "";
-$dbname = "";
+$dbname = "todolist_db";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+$conn = new mysqli($servername,$username, $password, $dbname);
 ?>
