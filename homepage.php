@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<?php
+include 'connection.php';
+?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -64,123 +66,11 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Finish Homework</td>
-                    <td>Date</td>
-                    <td>Date</td>
-                    <td class="no-padding ">
-                        <div class="progress">
-                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                100%
-                            </div>
-                        </div>
-                    </td>
-                    <td>Incomplete</td>
-                    <td>I will finish this</td>
+          <?php
+          include'gettodolist.php';
+          ?>
                 </tr>
-                <tr>
-                    <td>Finish Homework</td>
-                    <td>Date</td>
-                    <td>Date</td>
-                    <td class="no-padding">
-                        <div class="progress">
-                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                100%
-                            </div>
-                        </div>
-                    </td>
-                    <td>Incomplete</td>
-                    <td>I will finish this</td>
-                   
-                </tr>
-                <tr>
-                    <td>Finish Homework</td>
-                    <td>Date</td>
-                    <td>Date</td>
-                    <td class="no-padding">
-                        <div class="progress">
-                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                100%
-                            </div>
-                        </div>
-                    </td>
-                    <td>Incomplete</td>
-                    <td>I will finish this</td>
-                   
-                </tr>
-                <tr>
-                    <td>Finish Homework</td>
-                    <td>Date</td>
-                    <td>Date</td>
-                    <td class="no-padding">
-                        <div class="progress">
-                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                100%
-                            </div>
-                        </div>
-                    </td>
-                    <td>Incomplete</td>
-                    <td>I will finish this</td>
-                
-                </tr>
-                <tr>
-                    <td>Finish Homework</td>
-                    <td>Date</td>
-                    <td>Date</td>
-                    <td class="no-padding">
-                        <div class="progress">
-                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                100%
-                            </div>
-                        </div>
-                    </td>
-                    <td>Incomplete</td>
-                    <td>I will finish this</td>
-                
-                </tr>
-                <tr>
-                    <td>Finish Homework</td>
-                    <td>Date</td>
-                    <td>Date</td>
-                    <td class="no-padding">
-                        <div class="progress">
-                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                100%
-                            </div>
-                        </div>
-                    </td>
-                    <td>Incomplete</td>
-                    <td>I will finish this</td>
-                    
-                </tr>
-                <tr>
-                    <td>Finish Homework</td>
-                    <td>Date</td>
-                    <td>Date</td>
-                    <td class="no-padding">
-                        <div class="progress">
-                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                100%
-                            </div>
-                        </div>
-                    </td>
-                    <td>Incomplete</td>
-                    <td>I will finish this</td>
-                   
-                </tr>
-                <tr>
-                    <td>Finish Homework</td>
-                    <td>Date</td>
-                    <td>Date</td>
-                    <td class="no-padding">
-                        <div class="progress">
-                            <div class="progress-bar custom-progress " role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                100%
-                            </div>
-                        </div>
-                    </td>
-                    <td>Incomplete</td>
-                    <td>I will finish this</td>
-                </tr>
+               
             </tbody>
             <tfoot>
                 <td>
