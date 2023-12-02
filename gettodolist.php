@@ -12,7 +12,7 @@ while($row = $result->fetch_assoc()){
     echo "<td>" . $row['dueDate']. "</td>";
     echo "<td class='no-padding'>";
     echo "<div class='progress'>";
-    echo "<div class='progress-bar custom-progress' role='progressbar' aria-valuenow='75' aria-valuemin='0' aria-valuemax='100'>";
+    echo "<div class='progress-bar custom-progress' role='progressbar' aria-valuenow= '" . $row['percentageBar'] ."' aria-valuemin='0' aria-valuemax='100' style ='width: ". $row['percentageBar']. "%'>";
     echo $row['percentageBar'] . "%";
     echo "</div>";
     echo "</div>";
@@ -20,7 +20,5 @@ while($row = $result->fetch_assoc()){
     echo "<td>" . $row['progressStatus'] . "</td>";
     echo "<td>" . $row['taskNote'] . "</td>";
     echo "</tr>";
-
 }
-
 ?>

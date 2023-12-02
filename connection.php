@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$databasename = "todolist_db";
+$dbname = "todolist_db";
 
-$conn = new mysqli($servername,$username, $password, $databasename);
+$conn = new mysqli($servername,$username, $password, $dbname);
 ?>
