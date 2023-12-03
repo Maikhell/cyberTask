@@ -7,6 +7,7 @@ $result = $conn->query($sql);
 while($row = $result->fetch_assoc()){
 
     echo "<tr>";
+    echo "<td>" . $row ['id'] . "</td>";
     echo "<td>" . $row ['taskName'] . "</td>";
     echo "<td>" . $row['startDate']. "</td>";
     echo "<td>" . $row['dueDate']. "</td>";

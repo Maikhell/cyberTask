@@ -19,26 +19,24 @@ body {
   font-weight: 600;
   cursor: url(../image/icons/cursor/cursor.cur), auto;
 }
-/* Override cursor for all interactive elements */
-/* Override cursor for specific interactive elements */
-a,
-button,
-input,
-select,
-textarea,
-[type="button"],
-[type="submit"],
-[type="reset"],
-[type="checkbox"],
-[type="radio"] {
-  cursor: url(../image/icons/cursor/cursor.cur), auto;
-}
 sticky-top {
   z-index: 1000;
   position: sticky;
   top: 0;
 }
+.assistant {
+  text-align: right;
+}
 
+.user {
+  text-align: left;
+  font-size: larger;
+}
+.chat-box {
+  padding: 10px;
+  border: solid 1px;
+  margin: 0px 16px 5px 16px;
+}
 .navbar-toggler {
   animation: continuousColorChange 5s linear infinite;
 }

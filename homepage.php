@@ -48,6 +48,7 @@ include 'connection.php';
         <table class="table table-bordered table-hover  table-responsive">
             <thead>
                 <tr class="tr-title">
+                    <th class="custom-table-head" scope="col">Task No.</th>
                     <th class="custom-table-head" scope="col">My Tasks</th>
                     <th class="custom-table-head" scope="col">Start Date</th>
                     <th class="custom-table-head" scope="col">Due Date</th>
@@ -64,16 +65,7 @@ include 'connection.php';
             <tfoot>
                 <td>
                 </td>
-                <td>
-                </td>
-                <td>
-                </td>
-                <td>
-                </td>
-                <td>
-                </td>
-                <td>
-                </td>
+
             </tfoot>
         </table>
         <div class="container-chat mt-2">
@@ -92,8 +84,12 @@ include 'connection.php';
                         <button class="btn btn-prompt-action"><img class="send-icon"
                                 src="./image/icons/icons8-calendar-100.png" alt=""></button>
                     </div>
+                    <div class="chat-box" id="chatOutput">
+
+                    </div>
                     <div class="card-footer">
-                        <button class="btn custom-send-btn"><img class="send-icon"
+
+                        <button class="btn custom-send-btn" id="submitButton"><img class="send-icon"
                                 src="./image/icons/icons8-send-96.png" alt=""></button>
                         <textarea class="form-control" placeholder="" id="messageInput"> </textarea>
                     </div>
@@ -102,8 +98,8 @@ include 'connection.php';
         </div>
     </div>
     </div>
-    <script src="./bootstrap-5.3.1-dist/js/bootstrap.js">
-    </script>
+    <script src="./bootstrap-5.3.1-dist/js/bootstrap.js"></script>
+    <script src="./processinput.js"></script>
 </body>
 
 </html>
