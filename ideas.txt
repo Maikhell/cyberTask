@@ -1,0 +1,28 @@
+Future Features/Concepts/Changes to be Made/Added (50/50)
+----------------------------------------------------------
+Accomplished In Any Order
+==========================
+Checked = Done
+Asterisk = Ongoing
+X Mark = Dropped
+Empty = No Changes 
+
+1. Change Logo & Icon ()
+2. Change Fonts for Navbar & Links ()
+3. Improve the prompt, remove the quotation marks if possible ()
+4. Add searchbar functionalities ()
+5. Reform thet table ()
+6. Finalize the color pallete that's going to be used ()
+7. Remove the time in the Due&Start Date Column (00:00) ()
+8. Change Cursor to Default? ()
+9. Add Archives Page ()
+10. Add Prompt Shortcuts ()
+11. Add Google Calendar Api ()
+12. Add Better Background ()
+13. Add Error Message if the  Prompt does not match ()
+14. Remove the quotation marks in each taskName after submitting the add prompt ()
+15.  Add Edit/Delete/Archive/Calendar Functions
+
+Shorten and Arrange Files
+Clean Code Practices
+Convert the website to an Applications (Maybe?)
