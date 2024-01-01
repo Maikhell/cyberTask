@@ -21,7 +21,8 @@ Empty = No Changes
 12. Add Better Background ()
 13. Add Error Message if the  Prompt does not match ()
 14. Remove the quotation marks in each taskName after submitting the add prompt ()
-15.  Add Edit/Delete/Archive/Calendar Functions
+15. Add Edit/Delete/Archive/Calendar Functions
+16. Make the prompt real time [ex. when i prompt and enters no need to refresh to see the updated result] ()
 
 Shorten and Arrange Files
 Clean Code Practices
